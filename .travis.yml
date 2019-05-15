@@ -1,2 +1,10 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: MpBpN0AMFyM/t6oWwM+vJFSzNTzBxQHN0BgeYF8oM7cW+TYPZFkyityhQB0N34zM9ajY0Oj3R6jlMFw/WhSZOQG/+mVig1pqK34XLxPUd3ssOiXMiYAigXR3y/JiRzXVu/PZgQ1s6n+lRZPl1Ny9YvksmkIbeGBumcA07ze0+81qxPHOYcdfny11CocaycA9LqI+qtm0xMpC4svCZWjnGpOoqXweBHEdeKT3OD6fezrU+HEHuy4vRYAj9FrAmQRw5RjPK0OvdQtAwdU5gXZiseK70b/JLRe0AGUivASG2MJ03tUcIrjI19daMFMESL0PJJNIW5/9eMqAJpSRmGpc17LkogMb8b13uSRhRAw+/i9gASFoIS+2ec12uPZjpRqPmQKlGUV/3G+r4yJX7g/xcmq6OnCE5BILtGRZJiA0HycNUTclbhnhAGSBBsFSHS87CcuTu2OsT1pzNUqbyY/S4v/TqDZCHAD5kKCPti9HyDRyGqZ0NlZpqcEQn/nQ7KmSsReiFmEdMjW9zd0XY0/y1NNrw0YzCC4YugMPuLySJiKxXftef6t0ZrHq5Myd+pySmwfvyCUng1qlwZhh2k/cI29kBabXKQ7q5oDJcyltoo+Av+Oq/L/ZJKHDuIiW/Y3JYhHRwfXL/cW/qBfvyGpgJE0QBikf/sQ7Io8ZW/kkc5E=
+  app: peaceful-beyond-97807
+  on:
+    repo: MelitaClark/integration-tests
+    branch: tests-for-recipes
